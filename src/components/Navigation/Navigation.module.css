@@ -1,0 +1,12 @@
+.link {
+    color: black;
+}
+
+.active {
+    color: rgb(255, 0, 0);
+    font-style: italic;
+}
+.navList {
+    display: flex;
+    gap: 15px;
+}

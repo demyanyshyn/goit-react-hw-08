@@ -1,0 +1,12 @@
+.menuList {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header {
+    background: #b8a3f3;
+    width: 100%;
+    padding: 12px;
+    border-radius: 0 0 7px 7px;
+    box-shadow: 2px 2px 3px rgb(1, 1, 80);
+}
