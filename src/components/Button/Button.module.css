@@ -1,6 +1,27 @@
 .submit {
     margin-top: 10px;
 }
-.delete {
+.delete,
+.logout {
     max-height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #fcbcbc;
+    border-radius: 5px;
+    border: 0.5px solid #00000046;
+    box-shadow: 2px 2px 3px;
+    cursor: pointer;
+    padding: 5px;
+}
+.delete:hover {
+    color: aqua;
+}
+.logout {
+    color: aqua;
+    background: #0e003f;
+}
+.logout:hover {
+    background: #610bc4;
 }
